@@ -3,13 +3,13 @@
 // console.log(totalPrice);
 // console.log(massage);
 
-// const type = typeof 5;
+// const type = typeof 5;// визначення типу змінної (рядок чи число)
 // console.log(type);
 
 // alert("qwer");
 // console.log(alert);
 
-// const should = confirm("нажми");
+// const should = confirm("нажми");// підтвердження
 // console.log(should);
 
 // let price = prompt("Введіть ціну");
@@ -17,7 +17,7 @@
 // console.log(price);
 
 // let element = "70.4556px";
-// // const result = Number.parseInt(element);
+// // const result = Number.parseInt(element);//
 // const result = Number.parseFloat(element);
 // console.log(result);
 
