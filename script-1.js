@@ -31,3 +31,39 @@
 // power = Number(power);
 // const result = base ** power;
 // console.log(result);
+
+// const base = 5;
+// const prompt = 2;
+// // const result = Math.pow(base, prompt);
+// const result = base ** prompt;//=Math.pow(base, prompt)
+// console.log(result);
+
+// console.log(Math.random());//виклик случайного числа
+
+// const max = 50;
+// const min = 30;
+// const result = Math.round(Math.random() * (max - min) + min); //Math.round - округляє
+// console.log(result);
+//
+// const firstName = "Lybch";
+// const lastName = "Lina";
+// const result = firstName + lastName;
+// console.log(result);
+
+// ----------індекс рядка------------
+
+// const base = "forvard";
+// console.log(base[5]);
+// console.log(base.slice(3));
+
+//--------пошук в рядку--------
+
+// const blackListedWord1 = "спам";
+// const blackListedWord2 = "распродажа";
+// const string1 = "Привет, я принц Абдул, это не спам, предлогаю тебе миллион";
+// const string2 = "Самая большая РАСПРОДАЖА на этой недел, не пропустите";
+// const string3 = "рекламная компания #fletmaster";
+// console.log(string1.includes(blackListedWord1));
+// console.log(string2.includes(blackListedWord2));
+// console.log(string3.includes(blackListedWord2));
+// console.log(string2.toLowerCase().includes(blackListedWord2)); //toLowerCase - приводить все в нижній регістр
