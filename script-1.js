@@ -67,3 +67,38 @@
 // console.log(string2.includes(blackListedWord2));
 // console.log(string3.includes(blackListedWord2));
 // console.log(string2.toLowerCase().includes(blackListedWord2)); //toLowerCase - приводить все в нижній регістр
+
+//--------boolean------
+
+// console.log(Boolean(0));
+
+// console.log(6 && 10); // && логічне і , зупиняється на першому folse
+
+// console.log(8 || 0 || 16); // || - логічне або, зупиняється на першому true
+
+// console.log(!25); //!- оператоп логічного ні
+
+// const x1 = 20;
+// const x2 = 60;
+// const namber = 10;
+// console.log(`Число ${namber} входить у відрізок до ${x1}`, namber < x1);
+// console.log(`Число ${namber} входить у відрізок після ${x2}`, namber > x2);
+
+// ------ отримати доступ-------
+// const subscription = "pro";
+// const canAccessContent = subscription === "pro" || subscription === "vip";
+// console.log(`доступ`, canAccessContent);
+
+//-------ternarnsk-------
+
+const balance = -1000;
+// let message;
+
+// if (balance >= 0) {
+//   message = "позитивний баланс";
+// } else {
+//   `негативний баланс`;
+// }
+
+const message = balance >= 0 ? "позитивний баланс" : "негативний баланс";
+console.log(message);
