@@ -102,3 +102,94 @@
 
 // const message = balance >= 0 ? "позитивний баланс" : "негативний баланс";
 // console.log(message);
+
+// const stars = 6;
+// let prise;
+// // if (stars === 1) {
+// //   prise = 20;
+// // }
+
+// switch (stars) {
+//   case 1:
+//     prise = 20;
+//     break;
+//   case 2:
+//     prise = 30;
+//     break;
+//   case 3:
+//     prise = 40;
+//     break;
+//   default:
+//     console.log("doesn't have that many stars");
+// }
+// console.log(prise);
+
+// for (const n = 0; n < 10; n += 1) {
+//   console.log(i);
+// }
+
+// const min = 10;
+// const max = 20;
+// let total = 0;
+
+// for (let i = min; i < max; i += 1) {
+//   console.log(i);
+//   if (i % 2 === 0) {
+//     console.log("чутное", i);
+
+//     total += i;
+//   }
+// }
+// console.log(total);
+
+// const min = 5;
+// const max = 10;
+// let total = 0;
+
+// for (let i = min; i < max; i += 1) {
+//   console.log(i);
+//   if (i % 2 !== 0) {
+//     console.log("не чутное", i);
+//     continue;
+//   }
+//   {
+//     console.log("чутное", i);
+//     total += i;
+//   }
+// }
+// console.log(total);
+
+// let balance = 3000;
+// const payment = 2000;
+
+// console.log(
+//   `Загальна сума замовлення ${payment} кредитів. Перевіряємо кількість доступних коштів на рахунку`
+// );
+// if (payment <= balance) {
+//   console.log(`ok`);
+//   balance -= payment;
+//   console.log(`На рахунку залишилося ${balance} кредитів`);
+// } else {
+//   console.log(`На рахунку не достатньо коштів для здійснення операції`);
+// }
+
+// console.log(`Операція завершена`);
+
+// const totalSpent = 50;
+// let payment = 500;
+// let discount = 0;
+// if (totalSpent < 100) {
+//   discount = 0;
+// } else if (totalSpent >= 100 && totalSpent < 1000) {
+//   console.log(`Бронзовий партнер, знижка 2%`);
+//   discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+//   console.log(`Срібний партнер, знижка 5%`);
+//   discount = 0.05;
+// } else {
+//   console.log(`Золотий партнер, знижка 10%`);
+//   discount = 0.1;
+// }
+// console.log(
+//   `Виконуємо замовлення на суму ${payment} зі знижкою ${discount * 100}%`
+// );
