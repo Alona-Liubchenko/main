@@ -175,7 +175,7 @@
 
 // console.log(`Операція завершена`);
 
-// const totalSpent = 50;
+// let totalSpent = 50;
 // let payment = 500;
 // let discount = 0;
 // if (totalSpent < 100) {
@@ -190,6 +190,9 @@
 //   console.log(`Золотий партнер, знижка 10%`);
 //   discount = 0.1;
 // }
+// payment = payment - payment * discount;
 // console.log(
 //   `Виконуємо замовлення на суму ${payment} зі знижкою ${discount * 100}%`
 // );
+// totalSpent += payment;
+// console.log(`${totalSpent}`);
