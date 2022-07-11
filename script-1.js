@@ -91,14 +91,14 @@
 
 //-------ternarnsk-------
 
-const balance = -1000;
-// let message;
+// const balance = -1000;
+// // let message;
 
-// if (balance >= 0) {
-//   message = "позитивний баланс";
-// } else {
-//   `негативний баланс`;
-// }
+// // if (balance >= 0) {
+// //   message = "позитивний баланс";
+// // } else {
+// //   `негативний баланс`;
+// // }
 
-const message = balance >= 0 ? "позитивний баланс" : "негативний баланс";
-console.log(message);
+// const message = balance >= 0 ? "позитивний баланс" : "негативний баланс";
+// console.log(message);
