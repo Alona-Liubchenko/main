@@ -74,3 +74,16 @@
 //   total += namber;
 // }
 // console.log(total);
+
+// const cards = ["card-1", "card-2", "card-3", "card-4", "card-5", "card-6"];
+// console.table(cards);
+// // const cardToRemove = "card-3";
+// // const index = cards.indexOf(cardToRemove);
+// // console.log(index);
+// // cards.splice(index, 1); //delete
+// // console.table(cards);
+// const cardToInsert = "card-7";
+// // const index = 3;
+// // cards.splice(1, 0, 5, 10, 20);
+// // console.table(cards);
+// cards.splice(4, 1, cardToInsert);
