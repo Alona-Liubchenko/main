@@ -51,3 +51,9 @@ const titleEl = document.querySelector(".title");
 // console.log(titleEl.innerHTML);
 titleEl.innerHTML = "<a href=''>це посилання</a>";
 titleEl.innerHTML = "";
+function onFormSubmit(event) {
+  event.preventDefault();
+
+  const formData = new formData(event.currentTarget);
+  console.log(formData);
+}
